@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Roboto; /* Гарнитура шрифта */
+    src: url(fonts/Roboto-Medium.ttf); /* Путь к файлу со шрифтом */
+   }
+
+body {
+	font-size: 14px;
+	line-height: 20px;
+	color: #FFFFFF;
+	font-weight: normal;
+	font-family: "Roboto";
+}
+
+.slider-title {
+    font-size: 60px;
+	line-height: 1;
+    color: #FFFFFF;
+    font-weight: bold;
+	font-family: "Roboto";
+	text-align: center;
+}
+
+.action-title {
+	font-size: 23px;
+	line-height: 1;
+    color: #FFFFFF;
+    font-weight: bold;
+	font-family: "Roboto";
+    text-align: left;
+}
