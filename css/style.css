@@ -11,6 +11,73 @@ body {
 	font-family: "Roboto";
 }
 
+.hide {
+    display: none;
+}
+
+.main-header {
+    background-color: red;
+}
+
+.container {
+	width: 1146px;
+    padding: 0 27px;
+    margin: 0;
+    
+}
+
+.index-logo {
+    display: inline-block;
+	margin-left: 0;
+	margin-top: 9px;
+}
+
+.main-menu {
+    display: inline-block;
+    background-color: green;
+    width: 393px;
+    margin-left: 23px;
+    margin-top: 29px;
+    vertical-align: top;
+    
+}
+.main-menu ul {
+    margin: 0;
+    padding: 0;  
+    
+}
+
+.main-menu li {
+    display: inline;
+    
+}
+
+.main-menu li:nth-child(1){
+    margin-right: 16px;
+}
+
+.main-menu li:nth-child(2){
+    margin-right: 24px;
+}
+
+.user-block {
+    display: inline-block;
+    width: 267px;
+    padding: 0 24px;
+    margin-left: 250px;
+    background-color: yellow;
+}
+
+.user-block ul {
+    margin: 0;
+    padding: 0; 
+}
+
+.user-block li {
+    display: inline;
+
+
+
 .slider-title {
     font-size: 60px;
 	line-height: 1;

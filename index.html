@@ -7,49 +7,52 @@
   </head>
   <body>
     <header class="main-header">
-	  <div class="index-logo"> 
-	    <img src="/img/index-logo.png" width="154" height="64" alt= "Интернет магазин Глейси">
-	  </div>
-	  <nav class="main-menu">
-	    <ul>
-		  <li class="menu-catalog"><a href="#">Каталог</a></li>
-		    <ul class="submenu-catalog hide">
-			  <li>Новинки</li>
-			  <li><a href="#">Сливочное</a></li>
-			  <li><a href="#">Щербеты</a></li>
-			  <li><a href="#">Фруктовый лед</a></li>
-			  <li><a href="#">Мелорин</a></li>
-			</ul>
-		  <li><a href="#">Доставка и оплата</a></li>
-		  <li><a href="#">О компании</a></li>
-		</ul>
-	  </nav>
-	  <div class="user-block">
-	    <ul>
-		  <li><a href="#" class="search">Поиск</a>
-		    <div class="user-block-search">
-		    <form action="/echo" method="post">
-			<input type="search" name="search" placeholder="Что ищем?">
-			</form>
-			</div>
-		  </li>
-		  <li><a href="#" class="login">Вход</a></li>
-		    <div class="user-block-login">
-		      <form action="https://echo.htmlacademy.ru" method="post">
-			    <input type="email" name="email" placeholder="Электронная почта" required>
-			    <input type="password" name="password" placeholder="Пароль" required>
-			    <input type="submit" name="submit" value="Войти">
-			  </form>
-			<a href="#password">Забыли пароль?</a>
-			<a href="#registration">Новая регистрация</a>
-			</div>
-		  <li><a href="#" class="basket">Пусто</a></li>
-		</ul>  
-	  </div>
-	  <div class="header-contacts">
-	    <span class="header-contacts-time">C 10 до 20, ежедневно</span>
-		<span class="header-contacts-telephone">8 812 450-25-25</span>
-	  </div>
+	  <div class="container">
+        <div class="index-logo"> 
+          <img src="/img/index-logo.png" width="154" height="64" alt= "Интернет магазин Глейси">
+         </div>
+         <nav class="main-menu">
+            <ul class="menu-list">
+              <li class="menu-catalog"><a href="#">Каталог</a>
+                <ul class="submenu-catalog hide">
+                  <li>Новинки</li>
+                  <li><a href="#">Сливочное</a></li>
+                  <li><a href="#">Щербеты</a></li>
+                  <li><a href="#">Фруктовый лед</a></li>
+                  <li><a href="#">Мелорин</a></li>
+                </ul>
+              </li>  
+              <li><a href="#">Доставка и оплата</a></li>
+              <li><a href="#">О компании</a></li>
+            </ul>
+          </nav>
+          <div class="user-block">
+            <ul>
+              <li><a href="#" class="search">Поиск</a>
+                <div class="user-block-search hide">
+                <form action="/echo" method="post">
+                <input type="search" name="search" placeholder="Что ищем?">
+                </form>
+                </div>
+              </li>
+              <li><a href="#" class="login">Вход</a></li>
+                <div class="user-block-login hide">
+                  <form action="https://echo.htmlacademy.ru" method="post">
+                    <input type="email" name="email" placeholder="Электронная почта" required>
+                    <input type="password" name="password" placeholder="Пароль" required>
+                    <input type="submit" name="submit" value="Войти">
+                  </form>
+                <a href="#password">Забыли пароль?</a>
+                <a href="#registration">Новая регистрация</a>
+                </div>
+              <li><a href="#" class="basket">Пусто</a></li>
+            </ul>  
+          </div>
+          <div class="header-contacts">
+            <span class="header-contacts-time">C 10 до 20, ежедневно</span>
+            <span class="header-contacts-telephone">8 812 450-25-25</span>
+          </div>
+        </div>  
     </header>
 	<main class="container">
 	  <section class="action">
@@ -156,6 +159,7 @@
 	  </section>
 	</main>
 	<footer class="main-footer">
+      <div class="container">
 	  <div class="footer-social">
 	    <a class="social-btn social-btn-tw" href="#">Твиттер</a>
 		<a class="social-btn social-btn-it" href="#">Инстаграмм</a>
@@ -174,6 +178,7 @@
 		<img class="copyright-logo" src="/img/copyright-logo.svg" width="108" height="38" alt= "HTML Academy">
 		<span class="copyright-made-in">Сделано в <a href="https://htmlacademy.ru">HTML Academy</a> © 2017</span>
 	  </div>
+      </div>
 	</footer>
   </body>
 </html>
